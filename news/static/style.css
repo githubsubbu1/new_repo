@@ -1,0 +1,44 @@
+h1{
+color:white;
+text-align:center;
+}
+body{
+background:#3234a8;
+}
+hr{
+color:blue;
+}
+img{
+height:270px;
+width:270px;
+border: 5px solid red;
+}
+li{
+color:#fcba03;
+}
+#class{
+color:red;
+}
+h2{
+color:blue;
+}
+li:hover{
+color:red;
+}
+h2:hover{
+color:red;
+}
+a:hover{
+color:#df03fc
+}
+p{
+font-family:'Noto Serif',serif;
+text-align:center;
+font-size:25px;
+font-weight:800;
+border-bottom:2 px solid red;
+padding-bottom:20px;
+}
+p:hover{
+color:red;
+}

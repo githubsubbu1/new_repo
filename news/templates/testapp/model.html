@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Emplouee data</h1>
+{%for i in emp%}
+<table border="2">
+    <thead>
+    <th>eno</th>
+    <th>ename</th>
+    </thead>
+    <tr>
+        <td>{{i.eno}}</td>
+        <td>{{i.ename}}</td>
+    </tr>
+    {%endfor%}
+</table>
+</body>
+</html>
